@@ -23,7 +23,7 @@ window.onload = function () {
         console.log(`Ticket Moyen = ${ticketMoyen}`);
 
 
-        divResult.innerHTML=`Le ticket moyen est de ${ticketMoyen}`;
+        divResult.innerHTML=`Le ticket moyen est de ${ticketMoyen.toFixed(2)} euros `;
         console.log(divResult);
 
         
