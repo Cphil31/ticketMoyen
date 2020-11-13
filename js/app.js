@@ -25,7 +25,12 @@ window.onload = function () {
         let sum = document.createElement("p");
         sum.setAttribute("class","text-center");
         divResult.innerHTML="";
-        sum.innerHTML=`Le ticket moyen est de ${ticketMoyen.toFixed(2)} euros `;
+
+
+        let res = Math.round(ticketMoyen * 100) / 100
+        console.log(res);
+        
+        sum.innerHTML=`Le ticket moyen est de ${res} euros `;
         divResult.appendChild(sum);
 
         
