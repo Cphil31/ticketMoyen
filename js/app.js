@@ -39,6 +39,13 @@ window.onload = function () {
             sum.innerHTML=`Le chiffre d'affaire et le nombre de clients  doit être supérieur à 0 `;
         }
 
+        if (!Ca.value && !NbClient.value) {
+
+          
+            
+            sum.innerHTML=`Vous devez remplir les champs ! `;
+        }
+
         if (Ca.value > 0 && NbClient.value > 0 ) {
 
             let res = Math.round(ticketMoyen * 100) / 100
