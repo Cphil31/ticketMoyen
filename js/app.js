@@ -21,7 +21,7 @@ window.onload = function () {
 
         ticketMoyen = Ca.value/NbClient.value;
         console.log(`Ticket Moyen = ${ticketMoyen}`);
-        let sum = document.createElement("p");
+        let sum = document.createElement("h3");
         sum.setAttribute("class","text-center");
         divResult.innerHTML="";
         // si les chiffres rentrés sont 0>x : afficher " les données rentrées doivent etre supérieur a 0 "
